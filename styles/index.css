@@ -1,0 +1,39 @@
+::-moz-selection {
+}
+
+::selection {
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lusitana", serif;
+  font-weight: normal;
+}
+
+.center.middle h1,
+.center.middle h2,
+.center.middle h3,
+.center.middle h4,
+.center.middle h5,
+.center.middle h6 {
+  font-family: "Yanone Kaffeesatz", serif;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: "Ubuntu Mono", sans-serif;
+}

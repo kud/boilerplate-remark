@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-remark",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for [Remark](https://github.com/gnab/remark), a simple, in-browser, markdown-driven slideshow tool targeted at people who know their way around HTML and CSS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "prettier": "prettier --trailing-comma all --no-semi --write \"**/*.{js,css}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/_kud/boilerplate-remark.git"
+  },
+  "author": "Erwann Mest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/_kud/boilerplate-remark/issues"
+  },
+  "homepage": "https://github.com/_kud/boilerplate-remark#README",
+  "devDependencies": {
+    "prettier": "1.10.2"
+  },
+  "dependencies": {
+    "http-server": "0.11.1"
+  }
+}
